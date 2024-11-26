@@ -1,0 +1,159 @@
+.d-block {
+  height: 1150px;
+}
+
+#services {
+  display: flex;
+  justify-content: center;
+  height: 300px;
+  background-color: white;
+}
+#servicesul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+#services h1 {
+  color: #ec6408;
+  background-color: white;
+  border-radius: 50%;
+  padding: 15px;
+}
+.navbar {
+  height: 150px;
+}
+.container-fluid {
+  background-color: #ffffff;
+}
+.nav-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s;
+  height: 150px;
+  width: 100px;
+  text-decoration: none;
+}
+.nav-item:hover {
+  display: flex;
+  align-items: center;
+  background-color: #ec6408;
+}
+
+#service-items {
+  display: flex;
+  list-style: none;
+  flex-direction: row;
+}
+.service {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+#TopTick {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 460px;
+  background-color: #002366;
+}
+#Ticks {
+  width: 1500px;
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+#TickTitle {
+  display: flex;
+  width: 1500px;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+#TickTitle h2 {
+  color: white;
+}
+.card-img-top {
+  height: 150px;
+}
+#Offer {
+  position: relative;
+  left: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 600px;
+  width: 2440px;
+}
+#Offer h1 {
+  color: #ec6408;
+}
+#Offer h5 {
+  color: #ec6408;
+  text-align: center;
+  font-size: 30px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+#Offer p {
+  text-align: center;
+  font-size: 18px;
+  color: #ec6408;
+}
+#Offer ul {
+  list-style: none;
+}
+.OfferCard {
+  width: 300px;
+}
+#OfferTXT {
+  width: 700px;
+  display: flex;
+  flex-direction: column;
+}
+#Offerul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: wrap column;
+}
+
+#OfferDesc {
+  width: 1500px;
+  display: flex;
+  margin-top: 60px;
+  justify-content: space-between;
+}
+#OfferTXTul {
+  display: flex;
+  flex-flow: wrap column;
+  align-items: center;
+}
+.testimg {
+  height: 200px;
+  width: 500px;
+}
+#Credits {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #002366;
+  height: 500px;
+}
+#Credits h3 {
+  color: #ffffff;
+}
+#Credits ul {
+  list-style: none;
+}
+#Creditsul {
+  display: flex;
+  flex-direction: row;
+}
+#Creditsul li {
+  margin-left: 100px;
+  margin-right: 100px;
+}
